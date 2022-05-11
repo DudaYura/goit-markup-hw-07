@@ -1,18 +1,18 @@
-.section-class {
+.business {
   padding-bottom: 94px;
 }
-.section-class-list {
+.business__list {
   display: flex;
   justify-content: center;
 }
-.section-class-item {
+.business__item {
   position: relative;
 }
 
-.section-class-item:not(:last-child) {
+.business__item:not(:last-child) {
   margin-right: 30px;
 }
-.section-class-title {
+.business__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -23,7 +23,7 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.class-title-second {
+.business__title-second {
   position: absolute;
   bottom: 0;
   height: 70px;

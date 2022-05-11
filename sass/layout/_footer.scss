@@ -6,7 +6,7 @@
 .footer .container {
   display: flex;
 }
-.footer-link-main {
+.footer__link-main {
   display: block;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -18,10 +18,10 @@
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.footer-color {
+.footer__color {
   color: #ffffff;
 }
-.footer-link-address {
+.footer__link-address {
   display: block;
   margin-bottom: 9px;
 
@@ -32,7 +32,7 @@
   font-style: normal;
   color: #ffffff;
 }
-.footer-link-mail {
+.footer__link-mail {
   display: block;
   margin-bottom: 9px;
   font-weight: 400;
@@ -41,14 +41,14 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-link-tel {
+.footer__link-tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-title {
+.footer__text {
   margin-top: 12;
   margin-bottom: 20px;
 
@@ -58,13 +58,13 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-left-container {
+.footer__left-container {
   margin-right: 70px;
 }
-.footer-soc-list {
+.footer__soc-list {
   display: flex;
 }
-.footer-soc-link {
+.footer__soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -76,20 +76,20 @@
 
   transition: background-color var(--time-transition);
 }
-.footer-icon {
+.footer__icon {
   fill: currentColor;
 }
-.footer-soc-item + .footer-soc-item {
+.footer__soc-item + .footer-soc-item {
   margin-left: 10px;
 }
-.footer-soc-link:focus,
-.footer-soc-link:hover {
+.footer__soc-link:focus,
+.footer__soc-link:hover {
   background-color: #2196f3;
 }
-.footer-right-container {
+.footer__right-container {
   margin-left: 93px;
 }
-.footer-title-second {
+.footer__title-second {
   margin-top: 12px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -99,10 +99,10 @@
 
   color: #ffffff;
 }
-.footer-form {
+.footer__form {
   display: flex;
 }
-.footer-input {
+.footer__input {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -114,7 +114,7 @@
   background-color: transparent;
   color: #ffffff;
 }
-.footer-input::placeholder {
+.footer__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   align-items: center;
@@ -122,7 +122,7 @@
 
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-button {
+.footer__button {
   display: flex;
   justify-content: center;
 
@@ -142,6 +142,6 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.footer-icon-second {
+.footer__icon-second {
   margin-left: 10px;
 }

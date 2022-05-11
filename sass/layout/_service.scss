@@ -1,4 +1,4 @@
-.section-service {
+.service {
   background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
@@ -14,7 +14,7 @@
   margin: 0 auto;
   background-position: center;
 }
-.section-service-title {
+.service__title {
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -29,7 +29,7 @@
   color: #ffffff;
 }
 
-.section-service-btn {
+.service__btn {
   border-radius: 4px;
   padding: 10px 32px;
 
@@ -47,6 +47,6 @@
 
   transition: background-color var(--time-transition);
 }
-.section-service-btn:hover {
+.service__btn:hover {
   background-color: #188ce8;
 }

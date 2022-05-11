@@ -1,10 +1,16 @@
-.section-activity {
+.activity {
   padding: 94px 0px;
 }
-.section-activity-list {
+.activity__list {
   display: flex;
 }
-.container-icon {
+.activity__item {
+  width: 270px;
+}
+.activity__item:not(:last-child) {
+  margin-right: 30px;
+}
+.activity__container-icon {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -14,7 +20,7 @@
   align-items: center;
   margin-bottom: 30px;
 }
-.section-activity-title {
+.activity__title {
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -25,13 +31,8 @@
   text-transform: uppercase;
   color: var(--title-color);
 }
-.section-activity-item {
-  width: 270px;
-}
-.section-activity-item:not(:last-child) {
-  margin-right: 30px;
-}
-.section-activity-text {
+
+.activity__text {
   margin-top: 0px;
   margin-bottom: 0px;
 
