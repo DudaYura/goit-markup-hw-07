@@ -6,9 +6,10 @@
 }
 .activity__item {
   width: 270px;
-}
-.activity__item:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .activity__container-icon {
   width: 270px;

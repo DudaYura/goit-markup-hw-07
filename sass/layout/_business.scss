@@ -7,10 +7,10 @@
 }
 .business__item {
   position: relative;
-}
 
-.business__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .business__title {
   margin-top: 0;

@@ -30,14 +30,15 @@
   color: #afb1b8;
 
   transition: color var(--time-transition), border var(--time-transition);
+
+  &:focus,
+  &:hover {
+    color: #2196f3;
+    border: 1px solid #2196f3;
+  }
 }
 .clients__icon {
   fill: currentColor;
-}
-.clients__link:focus,
-.clients__link:hover {
-  color: #2196f3;
-  border: 1px solid #2196f3;
 }
 .clients__item:not(:last-child) {
   margin-right: 30px;

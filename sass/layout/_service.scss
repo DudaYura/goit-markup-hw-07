@@ -46,7 +46,8 @@
   border-color: transparent;
 
   transition: background-color var(--time-transition);
-}
-.service__btn:hover {
-  background-color: #188ce8;
+
+  &:hover {
+    background-color: #188ce8;
+  }
 }

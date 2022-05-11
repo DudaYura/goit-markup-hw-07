@@ -71,12 +71,13 @@
 
   transition: background-color var(--time-transition),
     color var(--time-transition);
+
+  &:focus,
+  &:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
 }
 .team-name__soc-icon {
   fill: currentColor;
-}
-.team-name__soc-link:focus,
-.team-name__soc-link:hover {
-  background-color: #2196f3;
-  color: #ffffff;
 }
